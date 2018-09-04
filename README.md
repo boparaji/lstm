@@ -32,7 +32,13 @@ cd keras
 sudo python setup.py install
 ```
 Similarly, Numpy, Pandas and Sklearn can be installed via pip. 
+```
+pip install numpy
 
+pip install pandas
+
+pip install sklearn
+```
 
 ## Running the Python code
 
