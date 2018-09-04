@@ -1,4 +1,5 @@
 # Predicting Queue Time with LSTM Classifier
+## Bright Uchenna Oparaji, Institute for Risk and Uncertainty, University of Liverpool.
 
 The aim of this project is to build a model and forcast the expected queue time on the Epic cluster at Zenotech adopting supervised machine learning method. Given the fact that the training data provided to train the model is strongly time dependent (i.e. time series data), a Long Short Term Memory (LSTM) model has been adopted. LSTM are units of a recurrent neural network (RNN). A RNN composed of LSTM units is often called an LSTM network. A common LSTM unit is composed of a cell, an input gate, an output gate and a forget gate. The cell remembers values over arbitrary time intervals and the three gates regulate the flow of information into and out of the cell. LSTM networks are well-suited to perfrom classification, regression and make predictions based on time series data, since there can be lags of unknown duration between important events in a time series. 
 ## Getting Started
