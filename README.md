@@ -40,7 +40,7 @@ pip install pandas
 pip install sklearn
 ```
 
-## Running the Python code
+## Running the code in IPython console
 
 Explain how to run the automated tests for this system
 
