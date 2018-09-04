@@ -42,7 +42,10 @@ pip install sklearn
 
 ## Running the code in IPython console
 
-Explain how to run the automated tests for this system
+The main engine of the code is located in cloud_crystal_lstm.py. There are two functions (i.e. train_lstm and update_lstm) inside cloud_crystal_lstm.py. Here, we give a brief deomstration on how to use the functions:
+```python
+from cloud_crystal_lstm import train_lstm, update_lstm
+```
 
 ### Break down into end to end tests
 
