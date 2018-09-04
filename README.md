@@ -45,7 +45,7 @@ pip install os
 
 ## Running the code in IPython console
 
-The main engine of the code is located in cloud_crystal_lstm.py. There are two functions (i.e. train_lstm and update_lstm) inside cloud_crystal_lstm.py. Here, we give a brief deomstration on how to use the functions:
+The main engine of the code is located in cloud_crystal_lstm.py. There are two functions (i.e. train_lstm and update_lstm) inside cloud_crystal_lstm.py. train_lstm trains an lstm with the initial training data and displays the reliability of the trained model on training and validation set respectively. Furthermore, a directory named 'model' is created and the trained lstm is stored inside the directory. update_lstm updates the saved model in the directory 'model' when a new training data set is provided. Here, we give a brief demonstration on how to use these functions:
 ```python
 from cloud_crystal_lstm import train_lstm, update_lstm
 ```
