@@ -1,4 +1,4 @@
-# Predicting Queue Time with LSTM
+# Predicting Queue Time with LSTM Classifier
 
 One Paragraph of project description goes here
 
