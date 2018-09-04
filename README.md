@@ -7,16 +7,26 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-1) keras 
-2) numpy
-3) pandas
-4) sklearn
-### Installing
+1) Keras 
+2) Numpy
+3) Pandas
+4) Sklearn
+### Installing Keras
 
 Install Keras from PyPI (recommended):
 ```
 sudo pip install keras
 ```
+If you are using a virtualenv, you may want to avoid using sudo:
+```
+pip install keras
+```
+Alternatively: install Keras from the GitHub source:
+First, clone Keras using git:
+```
+git clone https://github.com/keras-team/keras.git
+```
+
 
 Say what the step will be
 
