@@ -11,6 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 2) Numpy
 3) Pandas
 4) Sklearn
+5) os
 ### Installing Keras
 
 Install Keras from PyPI (recommended):
@@ -38,6 +39,8 @@ pip install numpy
 pip install pandas
 
 pip install sklearn
+
+pip install os
 ```
 
 ## Running the code in IPython console
@@ -46,6 +49,8 @@ The main engine of the code is located in cloud_crystal_lstm.py. There are two f
 ```python
 from cloud_crystal_lstm import train_lstm, update_lstm
 ```
+Now let's pass in the input argurements into the function:
+
 
 ### Break down into end to end tests
 
