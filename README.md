@@ -31,7 +31,7 @@ Then, cd to the Keras folder and run the install command:
 cd keras
 sudo python setup.py install
 ```
-Similarly, Numpy, Pandas and Sklearn can be installed via pip. 
+Similarly, Numpy, Pandas and Sklearn can be installed via pip: 
 ```
 pip install numpy
 
