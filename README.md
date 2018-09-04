@@ -26,6 +26,11 @@ First, clone Keras using git:
 ```
 git clone https://github.com/keras-team/keras.git
 ```
+Then, cd to the Keras folder and run the install command:
+```
+cd keras
+sudo python setup.py install
+```
 
 
 Say what the step will be
