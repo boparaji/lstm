@@ -1,7 +1,7 @@
 # Predicting Queue Time with LSTM Classifier
 ## Bright Uchenna Oparaji, Institute for Risk and Uncertainty, University of Liverpool.
 
-The aim of this project is to build a model and forcast the expected queue time of a HPC resource.
+The aim of this project is to build a model and forcast the expected queue time of a HPC resource using recurrent neural network (LSTM).
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
