@@ -242,7 +242,7 @@ def update_lstm(SpathToCsvInputFile, SpathToModelDirectory):
     print('Updated model has been saved in the output directory')
     return
 
-def forcast_with_lstm(SpathToInputCsvFileToForcast, SpathToTrainedModel):
+def forecast_with_lstm(SpathToInputCsvFileToForcast, SpathToTrainedModel):
     # prepare the new data
     import numpy as np
     import pandas as pd
