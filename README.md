@@ -56,7 +56,16 @@ The main engine of the code is located in lstm_model_final.py. There are three f
 ```python
 from lstm_model_final import train_lstm, update_lstm, forcast_with_lstm
 ```
-Now let's pass in the input argurements into the function:
+Using the functions:
+```python
+train_lstm('C:/Users/BRIGHT/Desktop/ZENOTEC_2/Input/TrainingData_Modified.csv')
+```
+```python
+update_lstm('C:/Users/BRIGHT/Desktop/ZENOTEC_2/Input/TrainingData_Update.csv','C:/Users/BRIGHT/Desktop/ZENOTEC_2/Model' )
+```
+```python
+forcast_with_lstm('C:/Users/BRIGHT/Desktop/ZENOTEC_2/Input/TestDataNoOutput.csv','C:/Users/BRIGHT/Desktop/ZENOTEC_2/Model/20180906020843.h5')
+```
 
 
 ### Break down into end to end tests
