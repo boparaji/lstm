@@ -52,11 +52,11 @@ pip install datetime
 
 ## Running the code in IPython console
 
-The main engine of the code is located in lstm_model_final.py. There are three functions (i.e. train_lstm, update_lstm and forcast_with_lstm) inside lstm_model_final.py. train_lstm trains an lstm with the initial training data and displays the reliability of the trained model on training and validation set respectively. Furthermore, a directory named 'model' is created and the trained lstm is stored inside the directory. update_lstm updates the saved model in the directory 'model' when a new training data set is provided. Here, we give a brief demonstration on how to use these functions:
+The main engine of the code is located in lstm_model_final.py. There are three functions (i.e. train_lstm, update_lstm and forcast_with_lstm) inside lstm_model_final.py. train_lstm takes in the training file in .csv format, trains an lstm displays the reliability of the trained model on training and validation set respectively, automatically creates a model directory and stores the trained model in the directory. update_lstm takes in new training inputs and the directory of the previously trained model, train the model, create a new version of the updated model, and stores the updated model in the model directory (i.e. version control). forcast_with_lstm takes in new inputs and a model of choice, then make a prediction from the new inputs and stores the prediction in an output directory which is automatically created. In the following, we give a brief demonstration on how to use these functions:
 ```python
 from lstm_model_final import train_lstm, update_lstm, forcast_with_lstm
 ```
-Using the functions:
+### Using the functions:
 ```python
 train_lstm('C:/Users/BRIGHT/Desktop/ZENOTEC_2/Input/TrainingData_Modified.csv')
 ```
