@@ -13,6 +13,8 @@ These instructions will get you a copy of the project up and running on your loc
 3) Pandas
 4) Sklearn
 5) os
+6) time
+7) datetime
 ### Installing libraries
 
 Install Keras from PyPI (recommended):
@@ -33,7 +35,7 @@ Then, cd to the Keras folder and run the install command:
 cd keras
 sudo python setup.py install
 ```
-Similarly, Numpy, Pandas and Sklearn can be installed via pip: 
+Similarly, numpy, pandas, sklearn, os, time and datetime can be installed via pip: 
 ```
 pip install numpy
 
@@ -42,6 +44,10 @@ pip install pandas
 pip install sklearn
 
 pip install os
+
+pip install time
+
+pip install datetime
 ```
 
 ## Running the code in IPython console
