@@ -69,7 +69,7 @@ forcast_with_lstm('C:/Users/BRIGHT/Desktop/ZENOTEC_2/Input/TestDataNoOutput.csv'
 
 ## Author
 
-* **Bright Uchenna Oparaji** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Bright Uchenna Oparaji** 
 
 
 
